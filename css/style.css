@@ -1,0 +1,86 @@
+/* General Layout */
+body {
+  padding-top: 90px;
+  font-family: 'Quattrocentro', serif;
+}
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+h1, h2, h3, h4 {
+  width: 100%;
+}
+svg {
+  font-size: 1.125rem;
+  text-anchor: middle;
+}
+.col-12 h2:first-child{
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+section, 
+#animation svg{
+  margin-bottom: 3rem;
+}
+#footer{
+  padding: 5px 0;
+}
+
+/* Key colours - Change as you wish ;-) */
+/*main text colours */
+body {
+  color: #212529;
+}
+h1, h2, h3, h4 {
+  color: #212529;
+}
+/* links */
+a {
+  color: #007bff;
+}
+a:hover{
+  text-decoration: none;
+}
+/* style guide colours */
+#colour .col-md-4:nth-of-type(2) rect{
+  fill: #333;
+}
+#colour .col-md-4:nth-of-type(3) rect{
+  fill: #666;
+}
+#colour .col-md-4:nth-of-type(4) rect{
+  fill: #999;
+}
+/* top menu */
+.bg-dark {
+  background-color: #343a40 !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+#animation rect{
+  fill: #999;
+}
+.col-12 h2:first-child{
+  border-bottom: 1px solid #aaa;
+}
+#footer a{
+  color: #fff;
+}
+
+/* Fonts - Change as you wish ;-) */
+body {
+  font-family: 'Open Sans', serif;
+}
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+  width: 100%;
+}
+header{
+  font-family: 'Oswald', sans-serif;
+}
